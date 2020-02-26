@@ -4,6 +4,27 @@
     float:left;
 }
 
+.grid {
+    color: white;
+    text-align:center;
+    font-family: monospace;
+    font-size:20px;
+    width:250px;
+    height: 170px;
+    border: 5px dotted white;
+    
+
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.hp {
+    border: 1px solid yellow;
+    width:40px;
+    margin: auto;
+    
+}
 .row1 {
     border: 1px solid brown;
     text-align:center;
@@ -19,23 +40,23 @@
     font-size:20px;
 }
 #fight {
-    height:150px;
-    margin-top:30px;
+    height:170px;
+    margin-top:20px;
 }
 
 #enemy1 {
-    margin-bottom:30px;
+    margin-bottom:20px;
 }
 
 #enemy2 {
-    height: 150px;
-    margin-top: 30px;
+    height: 170px;
+    margin-top: 20px;
 }
 
 
 img {
     width: 200px;
-    height: 150px;
+    height: 100px;
     margin:0;
     padding:0
     

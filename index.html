@@ -17,15 +17,33 @@
 
     <body style="background-image: url('assets/images/background.jpg');">
 
+        <!-- Link HTML to game.js -->
+        <script src="game.js"></script>
+
 
         <div class="container">
-            <div class="row1">
-                <img id="yoda" src="assets/images/yoga.png">    
+            <div class="grid"> Yoda
+                <img id="yoda" src="assets/images/yoga.png">
+                <div class="hp">HP</div>   
+            </div> 
+
+            <div class="grid">Anakin Skywalker
                 <img id="anakin" src="assets/images/Anakin-news-1104139.png">
-                <img id="darthmaul" src="assets/images/darth-maul.png">
-                <img id="sisious" src="assets/images/sidious.png">
+                <div class="hp">HP</div>
             </div>
 
+            <div class="grid"> Darth Maul
+                <img id="darthmaul" src="assets/images/darth-maul.png">
+                <div class="hp">HP</div>
+            </div>
+            <div class="grid">Darth Sidious
+                <img id="sisious" src="assets/images/sidious.png">
+                <div class="hp">HP</div>
+            </div>
+        </div>
+
+        <div class="container">
+            
             <div class="row">Your Character</div>
 
             <div id="fight"class="row">
