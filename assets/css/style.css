@@ -1,0 +1,42 @@
+
+.container {
+
+    float:left;
+}
+
+.row1 {
+    border: 1px solid brown;
+    text-align:center;
+    margin-left:0;
+    width: 850px;
+    color:white;
+}
+
+.row {
+    color:white;
+    border: 1px solid brown;
+    font-family: monospace;
+    font-size:20px;
+}
+#fight {
+    height:150px;
+    margin-top:30px;
+}
+
+#enemy1 {
+    margin-bottom:30px;
+}
+
+#enemy2 {
+    height: 150px;
+    margin-top: 30px;
+}
+
+
+img {
+    width: 200px;
+    height: 150px;
+    margin:0;
+    padding:0
+    
+}
